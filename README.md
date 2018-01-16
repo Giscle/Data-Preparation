@@ -30,3 +30,11 @@ To run this script : image_directory stores the cureent directory of this file l
  For eg: A folder contains [ image1.jpg , image1.xml , image3.jpg , image3.xml , image11.jpg ,image11.xml ] . Here image2 ,....image10            is missing / removed by duplicate_remover.py script , now this data is not Arranged , if we run this file_renamer.py script on          this folder then the folder content is [ image_1.jpg , image_1.xml , image_2.jpg , image_2.xml , image_3.jpg ,image_3.xml ] ,            so here all data is arranged and renamed in ascending order like image3.jpg got renamed to image_2.jpg and so on
 
 To run this script: image_directory stores the cureent directory of this file location , change 'day more' to the folder name on which                       it will be applied , and mention from where to start counting by setting the start value to count_n variable and run
+
+
+
+                                        ************* Order to Run the Script **************
+                                        
+                                           1. Run the rename.py on a Directory 
+                                           2. Then Run duplicate_remover.py on the Directory
+                                           3. Then Run file_renamer.py on the Directory
